@@ -413,5 +413,5 @@ qbs *func__comptime() {
 return qbs_new_txt(__TIME__);
 }
 qbs *func__compvers() {
-return qbs_new_txt("QB64-PE v4.5.0-8-226a13375");
+return qbs_new_txt("QB64-PE v4.5.0-12-f3d9846d3");
 }

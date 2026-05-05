@@ -14,8 +14,8 @@ if (is_error_pending()) goto exit_subfunc;
 do{
 qbs_set(_FUNC_ANSITEXTTOUTF8TEXT_STRING_UTF,qbs_new_txt_len("",0));
 qbs_cleanup(qbs_tmp_base,0);
-if(!qbevent)break;evnt(25813,676,"ide_export.bas");}while(r);
-S_66143:;
+if(!qbevent)break;evnt(25813,677,"ide_export.bas");}while(r);
+S_66144:;
 fornext_value7521= 1 ;
 fornext_finalvalue7521=_FUNC_ANSITEXTTOUTF8TEXT_STRING_TEXT->len;
 fornext_step7521= 1 ;
@@ -33,33 +33,33 @@ if (fornext_value7521<fornext_finalvalue7521) break;
 if (fornext_value7521>fornext_finalvalue7521) break;
 }
 fornext_error7521:;
-if(qbevent){evnt(25813,677,"ide_export.bas");if(r)goto S_66143;}
+if(qbevent){evnt(25813,678,"ide_export.bas");if(r)goto S_66144;}
 do{
 *_FUNC_ANSITEXTTOUTF8TEXT_INTEGER_ASCII=qbs_asc(_FUNC_ANSITEXTTOUTF8TEXT_STRING_TEXT,*_FUNC_ANSITEXTTOUTF8TEXT_LONG_CHI);
 qbs_cleanup(qbs_tmp_base,0);
-if(!qbevent)break;evnt(25813,679,"ide_export.bas");}while(r);
-S_66145:;
+if(!qbevent)break;evnt(25813,680,"ide_export.bas");}while(r);
+S_66146:;
 if ((-(*_FUNC_ANSITEXTTOUTF8TEXT_INTEGER_ASCII> 127 ))||is_error_pending()){
-if(qbevent){evnt(25813,680,"ide_export.bas");if(r)goto S_66145;}
+if(qbevent){evnt(25813,681,"ide_export.bas");if(r)goto S_66146;}
 do{
 *_FUNC_ANSITEXTTOUTF8TEXT_LONG_UNICODE=func__mapunicode(*_FUNC_ANSITEXTTOUTF8TEXT_INTEGER_ASCII);
-if(!qbevent)break;evnt(25813,682,"ide_export.bas");}while(r);
-S_66147:;
+if(!qbevent)break;evnt(25813,683,"ide_export.bas");}while(r);
+S_66148:;
 if ((-(*_FUNC_ANSITEXTTOUTF8TEXT_LONG_UNICODE== 0 ))||is_error_pending()){
-if(qbevent){evnt(25813,684,"ide_export.bas");if(r)goto S_66147;}
+if(qbevent){evnt(25813,685,"ide_export.bas");if(r)goto S_66148;}
 do{
 *_FUNC_ANSITEXTTOUTF8TEXT_LONG_UNICODE= 65533 ;
-if(!qbevent)break;evnt(25813,684,"ide_export.bas");}while(r);
+if(!qbevent)break;evnt(25813,685,"ide_export.bas");}while(r);
 }
 do{
 qbs_set(_FUNC_ANSITEXTTOUTF8TEXT_STRING_UTF,qbs_add(_FUNC_ANSITEXTTOUTF8TEXT_STRING_UTF,FUNC_UNICODETOUTF8CHAR(_FUNC_ANSITEXTTOUTF8TEXT_LONG_UNICODE)));
 qbs_cleanup(qbs_tmp_base,0);
-if(!qbevent)break;evnt(25813,685,"ide_export.bas");}while(r);
+if(!qbevent)break;evnt(25813,686,"ide_export.bas");}while(r);
 }else{
 do{
 qbs_set(_FUNC_ANSITEXTTOUTF8TEXT_STRING_UTF,qbs_add(_FUNC_ANSITEXTTOUTF8TEXT_STRING_UTF,func_chr(*_FUNC_ANSITEXTTOUTF8TEXT_INTEGER_ASCII)));
 qbs_cleanup(qbs_tmp_base,0);
-if(!qbevent)break;evnt(25813,688,"ide_export.bas");}while(r);
+if(!qbevent)break;evnt(25813,689,"ide_export.bas");}while(r);
 }
 fornext_continue_7520:;
 }
@@ -67,7 +67,7 @@ fornext_exit_7520:;
 do{
 qbs_set(_FUNC_ANSITEXTTOUTF8TEXT_STRING_ANSITEXTTOUTF8TEXT,_FUNC_ANSITEXTTOUTF8TEXT_STRING_UTF);
 qbs_cleanup(qbs_tmp_base,0);
-if(!qbevent)break;evnt(25813,691,"ide_export.bas");}while(r);
+if(!qbevent)break;evnt(25813,692,"ide_export.bas");}while(r);
 exit_subfunc:;
 free_mem_lock(sf_mem_lock);
 #include "free403.txt"
